@@ -98,10 +98,32 @@ startReactor = {
                     if (ledPanel.children[i].tagName == "DIV")
                         ledPanel.children[i].classList.remove(typeClasses[1])
                     }
-                })
+                }, 900);
+
             })
 
+            },
+
+            enableButtons() {
+
+                const playerMemory = startReactor.interface.playerMemory
+                playerMemory.classList.add('playerActive')
+
+                for (var i = 0; i < playerMemory.children.lenght; i++) {
+                    if (playerMemory.children[i].tagName == "DIV")
+                        playerMemory.children[i].classList.add("playerMemoryActive")
+                }
+
+            },
+
+            disableButtons() {
+                const playerMemory = startReactor.interface.playerMemory
+                playerMemory.classList.remove('playerActive')
+
+                for (var i = 0; i < playerMemory.children.lenght; i++) {
+                    if (playerMemory.children[i].tagName == "DIV")
+                        playerMemory.children[i].classList.remove("playerMemoryActive")
+                }
             }
         }
     }
-}
