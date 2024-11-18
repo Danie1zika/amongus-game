@@ -1,4 +1,4 @@
- @media screen and (max-width: 936px) {
+@media screen and (max-width: 936px) {
     .container {
         flex-direction: column;
     }
@@ -9,10 +9,11 @@
     }
     .painel .boxPainel {
         min-height: 268px;
-        min-width: 79,8%;
+        min-width: 79.8%;
     }
- }
- @media screen and (min-width: 642px) {
+}
+
+@media screen and (min-width: 642px) {
     .container {
         flex-direction: row;
     }
@@ -25,9 +26,9 @@
         min-height: 268px;
         min-width: 79.8%;
     }
- }
+}
 
- @media screen and (min-width: 776px) {
+@media screen and (min-width: 776px) {
     .container {
         flex-direction: row;
     }
@@ -40,16 +41,16 @@
         min-height: 353px;
         min-width: 79.8%;
     }
- }
+}
 
- @media screen and (min-width: 1159px) {
+@media screen and (min-width: 1159px) {
     .painel {
         margin: 0 15px;
         min-width: 456px;
         min-height: 517px;
     }
     .painel .boxPainel {
-        min-height: 428;
+        min-height: 428px;
         min-width: 79.8%;
     }
- }
+}
